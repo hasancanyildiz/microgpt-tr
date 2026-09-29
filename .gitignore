@@ -1,0 +1,7 @@
+.venv/
+data/raw_names.txt
+__pycache__/
+data/raw_*.txt
+data/page1.json
+.ipynb_checkpoints/
+data/names_en.txt
