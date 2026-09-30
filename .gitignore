@@ -6,3 +6,4 @@ data/page1.json
 .ipynb_checkpoints/
 data/names_en.txt
 data/names.txt
+!data/raw_names.txt
