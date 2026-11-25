@@ -18,3 +18,11 @@
 - Seed 42 ile bölme: train 896, val 100, test 90.
 - Tokenizer kontrolü: hüseyin, ömer ve süleyman encode/decode sonrasında aynı kaldı.
 - Bigram kontrolü: BOS olasılıkları toplamı 1.0; train kümesinde 5.997 geçiş sayıldı.
+
+## Gün 2 Çarşamba-Perşembe
+
+- Ay 3 notebook'ları incelendi; Value, MLP ve Transformer kodları modüllere uyarlandı.
+- Value gradyan kontrolü geçti: sonuç 15, gradyan 8.
+- MLP kontrolü geçti: 30 logit, olasılık toplamı yaklaşık 1, 3424 parametre.
+- Transformer seed ve KV cache kontrolleri geçti; iki token sonrası cache uzunluğu 2, yeni cache boş.
+- train.py yazıldı; henüz çalıştırılıp doğrulanmadı.
